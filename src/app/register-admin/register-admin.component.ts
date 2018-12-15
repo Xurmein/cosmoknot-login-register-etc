@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { MatDialog } from '@angular/material';
 import { RegisterAdminDiagBoxComponent } from '../register-admin-diag-box/register-admin-diag-box.component';
-import { AdminData } from '../models/admin.model';
+import { AdminData } from '../models/admin';
 
 export interface AdminData{
   username : string;

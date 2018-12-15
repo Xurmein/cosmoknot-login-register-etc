@@ -1,6 +1,6 @@
 import { Component, Inject } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
-import { AdminData } from '../models/admin.model';
+import { AdminData } from '../models/admin';
 
 @Component({
   selector: 'app-register-admin-diag-box',
